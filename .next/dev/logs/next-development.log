@@ -1,0 +1,8 @@
+[00:00:01.783] Server  LOG      ✓ Ready in 1474ms
+[00:00:20.354] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `Home`.
+[00:00:48.274] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `Home`.
+[00:01:18.358] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
