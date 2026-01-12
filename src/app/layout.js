@@ -7,7 +7,7 @@ const bricoloage = Bricolage_Grotesque({
 });
 
 export const metadata = {
-  title: "Our Future Together!",
+  title: "US!",
   description: "A heartfelt digital journey capturing our memories, promises, and moments that will last forever.",
 };
 
