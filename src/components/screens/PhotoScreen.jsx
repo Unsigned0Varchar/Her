@@ -22,13 +22,22 @@ export default function PhotoScreen() {
 
                 {/* Heading */}
                 <motion.h1
-                    className="text-[26px] md:text-3xl font-semibold text-sky-500 mb-4 leading-tight"
+                    className="text-[26px] md:text-3xl font-semibold text-sky-500 mb-1 leading-tight"
                     initial={{ opacity: 0, y: 10 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.2, duration: 0.5 }}
                 >
                     {photoScreenHeading}
                 </motion.h1>
+
+                <motion.p
+                    className="text-xs text-sky-500/80 mb-4"
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{ delay: 0.4, duration: 0.5 }}
+                >
+                    Slide to view more
+                </motion.p>
 
                 <Swiper
                     modules={[EffectFade, Autoplay, Pagination]}

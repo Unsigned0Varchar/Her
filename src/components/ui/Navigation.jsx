@@ -13,7 +13,7 @@ export default function Navigation({ onPrev, onNext, disabledPrev, disableNext }
       <Button 
         onClick={onPrev} 
         disabled={disabledPrev} 
-        className="bg-white/80 hover:bg-white text-rose-500 backdrop-blur-sm"
+        className="bg-red-500 hover:bg-red-600 text-white backdrop-blur-sm"
       >
         <ArrowLeft size={20} />
       </Button>
@@ -21,7 +21,7 @@ export default function Navigation({ onPrev, onNext, disabledPrev, disableNext }
       <Button 
         onClick={onNext} 
         disabled={disableNext} 
-        className="bg-white/80 hover:bg-white text-rose-500 backdrop-blur-sm"
+        className="bg-green-500 hover:bg-green-600 text-white backdrop-blur-sm"
       >
         <ArrowRight size={20} />
       </Button>
